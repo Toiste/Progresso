@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente Abrir esse site em vários dispositivos diferentes ou simplesmente
+         aumente e diminua o tamanho do seu navegador</p>
+         <picture>
+             <source media="(max-width: 750px)" srcset="imagens/paisagem-p.png">
+             <source media='(max-width: 1200px)'srcset='imagens/paisagem-m.png'>
+             <img src="imagens/paisagem-g.png" alt="Paisagem tamanho G">
+         </picture>
+         <h1>Reproduzindo Audio</h1>
+         <p>Vamos Aprender A reproduzir audio em HTML5</p>
+         <audio src="midia/tentativa.mp3" controls></audio> <!--MP3 WAV OGG-->
+         <audio>
+             <source src="midia/tentativa.mp3" type="audio/mpeg">
+             <source src="midia/tentativa.ogg" type="audio/ogg">
+             <source src="midia/tentativa.wav" type="audio/wav"> <!--exemplos de como integrar os audios para todos os navegadores.-->
+             <p>Infelizmente seu Navegar não consegue reproduzir o Audio <a href="midia/tentativa.mp3"> clique aqui para baixar o Arquivo MP3</a></p>
+         </audio>
+</body>
+</html>

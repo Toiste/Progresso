@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jovem Aprendiz 2021</title>
+    <link rel="stylesheet" href="stilo.css">
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>Desafio PicPay</h1>
+
+    </header>
+    <section>  
+        <div>
+            <p><img id="foto" src="picpay2.png" alt="picpay"></p>
+            <p>Nome:
+                <input type="text" name="textname" id="textname">
+            </p>
+            <p>Sobrenome:
+                <input type="text" name="textsname" id="textsname">
+            </p>
+            <p>Data de Nascimento:
+             <input type="number" id="number">
+             <input type="number" id="number2">
+             <input type="number" id="number3">
+            </p>
+            <p>
+                <input type="button" id="button" value="Cadastrar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados Acima para Ver o Resultado!
+        </div>
+    </section>
+    <footer>
+        <p> Jovem Aprendiz 2021</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    background: #21c25e;
+    font: normal 15pt Arial;
+
+}
+header {
+    color: white;
+    text-align: center;
+
+}
+section {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 650px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.281)
+}
+footer {
+    color: white;
+    text-align: center;
+
+}
+input[id="number"]{
+    width: 40px;
+}
+input[id="number2"]{
+    width: 40px;
+}
+input[id="number3"]{
+    width: 80px;
+}
+div[id="res"]{
+    font: normal 14pt Arial;
+    color: black ;
+    text-align: center;
+    
+}
+div{
+    text-align: center;
+    font: normal 14pt Arial;
+}
