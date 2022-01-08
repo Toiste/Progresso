@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(131, 130, 130);
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+
+        }
+        article {
+            background-color: lightgray;
+
+        }
+        article > aside {
+            background-color: rgb(148, 140, 140);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Titulo</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Assuntos do Momento</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae vero adipisci blanditiis, voluptatibus iste quod sunt explicabo hic esse repudiandae. Nihil modi sed harum, voluptate eveniet blanditiis ex laudantium quo!</p>
+        </section>
+        <section id="Noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quidem illo! Corporis, iste exercitationem esse sint qui nihil a aliquid beatae, accusantium sed voluptas ea porro repellendus ut adipisci doloribus.</p>
+                <aside>
+                    <p>Artigo escrito por Lorem</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Toiste</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
