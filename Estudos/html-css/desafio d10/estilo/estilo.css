@@ -1,5 +1,100 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --fonte-padrao:Arial, Helvetica, sans-serif;
+    --font-destaque: 'Bebas Neue', cursive;
+    --font-android: 'Android', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body {
     background-color: #c5ebd6;
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    background-color: var(--cor4);
+    min-height: 150px;
+    text-align: center;
+}
+header > h1 {
+    color: white;
+    font-family: var(--font-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
+}
+header > p {
+    color: white;
+    font-family: var(--font-destaque);
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+nav {
+    background-color: var(--cor5);
+    padding: 10px;
+}
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.2s;
+
+}
+nav > a:hover {
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+main {
+    background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main h1 {
+    color: var(--cor5);
+    font-family: var(--font-android);
+}
+main h2 {
+    font-family: var(--font-android);
+
+}
+main img {
+    width: 100%;
+}
+main img.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+footer {
+    color: white;
+    font-family: var(--cor5);
 }
