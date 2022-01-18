@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+.caixa {
+    background-color: red;
+    width: 120px;
+    height: 120px;
+}
