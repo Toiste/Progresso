@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+p {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    direction: ltr;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: underline;
+    text-indent: 10px;
+    text-shadow: 0px 0px 5px black;
+    text-transform: lowercase;
+
+}

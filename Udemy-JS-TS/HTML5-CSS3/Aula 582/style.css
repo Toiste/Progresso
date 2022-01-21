@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pai {
+    width: 50rem;
+    height: 100vh;
+    background: yellow;
+}
+
+.pai > div {
+    width: 50%;
+    height: 50rem;
+    background: blue;
+}
+
+.color-one {
+    background: turquoise;
+}
+
+.color-two {
+    background: violet;
+}
+
+p {
+    font-size: 1.6rem;
+}

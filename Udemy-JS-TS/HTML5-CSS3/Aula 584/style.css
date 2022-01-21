@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pai {
+    height: 300vh;
+}
+
+.filha1, .filha2, .filha3 {
+    width: 300px;
+    height: 300px;
+    background: red;
+    margin: 10px;
+    position: static;
+}
+
+.filha2 {
+    position:absolute;
+    background: greenyellow;
+    z-index: 1;
+}
+
+.filha1 {
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.filha3 {
+    background: blue;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
