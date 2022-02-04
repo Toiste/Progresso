@@ -1,0 +1,32 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+   background: #6096A9;
+    background-size: cover;
+}
+
+section {
+    background-image: url(https://i1.wp.com/porondeeuvou.com/wp-content/uploads/2019/10/Coisas_para_saber_antes_de_visitar-o-japa%CC%83o-2.jpg?resize=756%2C489&ssl=1);
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 3px solid gold;
+}
+
+h1 {
+    background: white;
+    border: 1px solid black;
+    font-size:  30px;
+}
