@@ -6,18 +6,18 @@
 #  Copyright 2022 Marllon Christiani dos Santos Ribeiro
 #  
 
-
 def main():
+	# Declaração de variáveis
 	massa = float(0.000)
 	massa = float(input())
-	texto = ""
 	segundos = int(0)
 	minutos = int(0)
 	horas = int(0)
 
+	#Inicio
 	if massa >= 0 :
 		while massa >= 0 :
-			texto += (f"MASSA INICIAL={massa:.3f}")
+			massaInicial = float(massa)
 			#CALCULA A DIVISAO DA MASSA E A CONTAGEM DO TEMPO
 			while massa >= 0.5 :
 				massa = massa/2 ;
@@ -31,23 +31,18 @@ def main():
 				minutos -= 60 ;
 				horas += 1 ;
 			#Arredonda a massa final
-			massaFinal = round(massa, 3)
-			texto += (f" MASSA FINAL={massaFinal:.3f} TEMPO DECORRIDO={horas}:{minutos}:{segundos}\n") ;
+			print(f"MASSA INICIAL={massaInicial:.3f} MASSA FINAL={massa:.3f} TEMPO DECORRIDO={horas}:{minutos}:{segundos}") ;
 			massa = float(input())
 			#Reseta o Tempo
 			segundos = int(0)
 			minutos = int(0)
 			horas = int(0)
-		texto += "FIM"
-		print(texto)
+		print("FIM")
 		
 
 	else:
 		print("FIM");
-	
-		
-
 
 if __name__ == "__main__":
 	main()
-
+	#Fim
