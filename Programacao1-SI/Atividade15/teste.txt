@@ -1,0 +1,17 @@
+turma1
+matricula1
+60
+matricula2
+80
+matricula3
+50
+0
+turma2
+matricula4
+50
+matricula5
+20
+matricula6
+60
+0
+FIM
